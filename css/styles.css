@@ -78,12 +78,18 @@
 
 /* -------- ADD MY CSS ---------------------------------------------------------------*/
 
+/* COMMUN ------*/
+.bg-dark-orange{
+  background-color: #571B02;
+}
+/* END COMMUN ------*/
+
+
 /* HEADER MENU ------*/
 .header-bg{
 background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/GFPJZPVBG5U81606119674432.jpg);
 background-size: cover;
 }
-
 .menu-style {
     background-image: url(bg/menu_bg.jpg)
 }
@@ -106,6 +112,23 @@ background-size: cover;
     color: #212529;
 }
 /* END HEADER MENU ------*/
+
+
+/* HOME BOX ------*/
+.box-style {
+  background-color: #424549;
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+}
+.classe-icon{
+  border: 1px solid #571B02;
+}
+.classe-titre{
+  margin-left: 10px;
+  font-weight: 600;
+}
+/* END HOME BOX ------*/
 
 
 /* LINK PAGE ------*/
@@ -134,25 +157,6 @@ background-size: cover;
 }
 /* END LINK PAGE ------*/
 
-.box-style {
-    background-color: #424549;
-    padding: 15px;
-    border-radius: 4px;
-    color: white;
-}
-
-.classe-icon{
-    border: 1px solid #571B02;
-}
-.classe-titre{
-    margin-left: 10px;
-    font-weight: 600;
-}
-
-.bg-dark-orange{
-    background-color: #571B02;
-}
-
 
 
 /* DAILYEXENTTION ------*/
@@ -165,17 +169,15 @@ background-size: cover;
     margin-bottom: 1rem;
     font-weight: 700;
 }
-
 .titre-ext p, .titre-ext img {
     display: inline-block;
 }
 .titre-ext p {
     padding-left: 0.5rem;
 }
-
 .sous-titre-ext {
    font-weight: 700;
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #D64304;
     
 }
 .btn-ext {
@@ -194,6 +196,8 @@ background-size: cover;
     padding: 0.5rem;
     display: flex;
 }
+
+
 
 /* -------- END ADD ---------------------------------------------------------------*/
 p {
